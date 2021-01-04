@@ -1,0 +1,26 @@
+name: Kits
+main: BenMenEs\Kits\Main
+version: 0.0.1
+api: 3.17.0
+author: BenMenEs
+website: vk.com/benmenes
+commands:
+  start:
+    description: Стартовый набор
+    default: true
+  vip:
+    description: Вип набор
+    permission: vip.kit
+  premium:
+    description: Премиум набор
+    permission: premium.kit
+  pro:
+    description: Про набор
+    permission: pro.kit
+permissions:
+  vip.kit:
+    default: op
+  premium.kit:
+    default: op
+  pro.kit:
+    default: op
